@@ -1,11 +1,7 @@
-
-
 .container{
-  /* border: 1px solid green; */
   max-width: 700px;
   margin:auto;
 }
-
 h1{
   color:steelblue
 }
@@ -13,11 +9,11 @@ h1{
 .counters {
   display:flex;
   justify-content: flex-start;
-  flex-direction: wrap;
+  flex-wrap: wrap;
 }
 
 .counter {
-  display: flex;
+  display:flex;
   flex-direction: column;
   justify-content: space-between;
   border-radius: 4px;
@@ -28,7 +24,6 @@ h1{
   margin:10px;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 5px -3px,
   rgba(0, 0, 0, 0.05) 0px 2px 3px -2px;
-
 }
 
 .counter > h1 {

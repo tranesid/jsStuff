@@ -1,26 +1,15 @@
+
+   
 import "./App.css";
+import Counter from "./Counter";
 
 function App() {
   return (
     <div className="container">
       <h1 className="title">Counter Example</h1>
       <div className="counters">
-        {/* first counter */}
-        <div className="counter">
-          <h1>Step Counter: 0</h1>
-          <div className="counter-control">
-            <button>add</button>
-            <button>minus</button>
-          </div>
-        </div>
-        {/* second counter */}
-        <div className="counter">
-          <h1>Screen Time Counter: 0</h1>
-          <div className="counter-control">
-            <button>add</button>
-            <button>minus</button>
-          </div>
-        </div>
+       <Counter name='Steps' goal={10000} />    
+       <Counter name='ScreenTime' goal={8} />    
       </div>
     </div>
   );
